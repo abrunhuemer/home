@@ -4,7 +4,7 @@ import bloglist from "../../editable-stuff/blog";
 import { Link } from "react-router-dom";
 const Blog = (props) => {
   return (
-    <div className="container-lg mt-5 bg-blue">
+    <div className="container-lg mt-5 bg-blue" id="blogs">
       <h1 className="text-center">Blogs</h1>
       {bloglist.map((value, index) => {
         return (
